@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("partials/head.ejs") %>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <%- include("partials/navigation.ejs") %> 
+    </header>
+    <main>
+        <h1><%= title %> </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptates saepe suscipit soluta. Ipsam temporibus cumque quod itaque? Ea et nesciunt veritatis obcaecati at molestiae vero quo consequatur harum velit.</p>
+        <form action="" id="formulario_contacto">
+            <input class="input_form_cont" type="text" placeholder="Nombre" name="" id="">
+            <input class="input_form_cont"  type="text" placeholder="Email" name="" id="">
+            <textarea name="" placeholder="Información" id="textarea_cont" cols="30" rows="10"></textarea>
+            <button id="boton_enviar_cont" type="submit">Enviar</button>
+        </form>
+    </main>
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>

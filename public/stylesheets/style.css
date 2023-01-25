@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: antiquewhite;
+}
+
+.a_encabezado{
+  font-size: 30px;
+  margin: 15px;
+  color: black;
+}
+
+main{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+h1, p{
+  margin-top: 20px;
+}
+
+p{
+  margin-top: 35px;
+  text-align: start;
+}
+
+#nav_a{
+  position: absolute;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titulo_encabezado{
+  position: absolute;
+  left: 20px;
+  font-size: 40px;
+  top: 5px;
+}
+
+img{
+  width: 500px;
+  border: 2px solid wheat;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px grey, -3px -3px 3px grey;
+  margin-top: 20px;
+}
+
+footer{
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#formulario_contacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(237, 237, 221);
+  margin-top: 50px;
+}
+
+.input_form_cont{
+  width: 240px;
+  margin-top: 15px;
+  padding: 4px;
+  font-size: 25px;
+}
+
+#textarea_cont{
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#boton_enviar_cont{
+  margin-top: 20px;
+  padding: 6px 12px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
